@@ -1,15 +1,33 @@
 body{
-    background-color:lightblue;
+    background-color:black;
     margin:0;
-    font-family: 'Lucida Sans',  sans-serif;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: bold;
+    font-size: 20px;
+    background: url(../img/card.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+      
+
+
 }
+/* head{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+} */
 
 .navbar-name{
     float: left;
     position: absolute;
-    margin-top:2em;
+    margin-top:1em;
     margin-left: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
     
 }
 
@@ -20,6 +38,8 @@ body{
     border: 3px ridge royalblue;
     /* border: 1px solid Blue; */
     /* border-color: aqua; */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px white;
+
 
 }
 
@@ -49,6 +69,39 @@ body{
 
 .links a:hover{
     color:#deecff;
+
+}
+.portrait {
+    display: inline-block;
+    padding-top: 6em;
+    margin-left: 2em;
+
+}
+.intro{
+    color:royalblue;
+    margin-top: 100px;
+    /* margin-bottom: 200px; */
+    /* margin-right: 200px;
+    margin-left: 200px; */
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px white;
+
+
+
+}
+.content{
+    color:white;
+    margin-top: 350px;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.footer{
+    text-align: center;
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 }
 
