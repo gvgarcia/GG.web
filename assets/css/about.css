@@ -35,7 +35,7 @@ body{
     position: absolute;
     background-color: black;
     width:100%;
-    border: 3px ridge royalblue;
+    border: 3px ridge red;
     /* border: 1px solid Blue; */
     /* border-color: aqua; */
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px white;
@@ -47,7 +47,7 @@ body{
     text-decoration: none;
     color:white;
     letter-spacing: 1px;
-    color:royalblue;
+    color:red;
     /* border: 3px ridge White; */
      /* margin-top:2em; */
 }
@@ -78,7 +78,7 @@ body{
 
 }
 .intro{
-    color:royalblue;
+    color:red;
     margin-top: 100px;
     /* margin-bottom: 200px; */
     /* margin-right: 200px;
@@ -92,7 +92,7 @@ body{
 
 }
 .content{
-    color:white;
+    color:red;
     margin-top: 350px;
     text-align: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -100,7 +100,7 @@ body{
 }
 .footer{
     text-align: center;
-    color:white;
+    color:red;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 }
