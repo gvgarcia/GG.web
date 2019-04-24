@@ -33,12 +33,12 @@ body{
 
 .navbar-container {
     position: absolute;
-    background-color: black;
+    background-color: #98CED8;
     width:100%;
-    border: 3px ridge #DFE7E9;
+    border: 3px ridge #EFE9C7;
     /* border: 1px solid Blue; */
     /* border-color: aqua; */
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     /* rgba(166, 255, 0, 0.144) */
 
 }
@@ -67,7 +67,7 @@ body{
 }
 
 .links a:hover{
-    color:black;
+    color:#CF9D84;
 
 }
 /* .portrait {
@@ -111,5 +111,22 @@ body{
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 }
+.container{
+    background-color: #FAFFFD;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
 
 
