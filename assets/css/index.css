@@ -4,7 +4,7 @@ body{
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-weight: bold;
     font-size: 20px;
-    background: url(../img/b1.jpeg) no-repeat center center fixed; 
+    background: url(../img/mac.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,6 +13,11 @@ body{
       
 
 
+}
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+@-ms-viewport{
+    width: device-width;
 }
 /* head{
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -28,55 +33,97 @@ body{
     font-size: 30px;
     font-weight: bold;
     font-style: italic;
-    
+    float: left;
+
+
 }
 
+/* .navbar-name a {
+    margin-left: 3rem;
+    color: white;
+    text-decoration: none;
+} */
+
 .navbar-container {
+    float: right;
     position: absolute;
-    background-color: #98CED8;
+    background-color:#B4B8C3;
     width:100%;
-    border: 3px ridge #EFE9C7;
+    background-color:#B4B8C3;
     /* border: 1px solid Blue; */
     /* border-color: aqua; */
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* text-shadow: -2px 0 blue, 0 2px blue, 2px 0 blue, 0 -2px blue; */
+
     /* rgba(166, 255, 0, 0.144) */
+
+    /* background-color: #ad974f;
+    display: table;
+    width: 100%;
+    position: fixed;
+    text-transform: uppercase; */
+    display: block !important;
 
 }
 
 .navbar-container a {
     text-decoration: none;
     letter-spacing: 1px;
-    color:#DFE7E9;
+    color:white;
     /* border: 3px ridge White; */
      /* margin-top:2em; */
+
 }
 
-.links li{
+/* .links li{
     list-style-type: none;
     display: inline-block;
     margin-top:1em;
     margin-bottom: 1em;
     margin-right: 2em;
-}
+} */
 
-/* .navbar-links{
+.navbar-links{
+    float: right;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block !important;
+}
+.navbar-links a{
+    text-decoration: none;
+    color: white;
+}
+/* .navbar-links ul{
     float:right;
 } */
-.navbar-links ul{
-    float:right;
+.navbar-links li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2rem;
+    letter-spacing: 5px;
+    margin-right: 2rem;
 }
 
-.links a:hover{
+/* .links a:hover{
     color:#CF9D84;
 
-}
-/* .portrait {
-    display: inline-block;
-    padding-top: 6em;
-    margin-left: 36em; 
-    width: 50%;
-
 } */
+
+.navbar-links a:hover {
+    color:#CF9D84 !important;
+    font-weight: bold;
+}
+
+.portrait {
+    /* display: inline-block; */
+    padding-top: 6em;
+    margin-left: 3em; 
+    width: 50%;
+    /* float:left; */
+
+
+}
 .center {
     padding-top: 6em;
     margin-left: 36em; 
@@ -87,20 +134,20 @@ body{
   }
 .intro{
     color:#DFE7E9;
-    margin-top: 200px;
+    margin-top: 100px;
     /* margin-right: 200px; */
     /* margin-left: 200px; */
     font-weight: bold;
     font-size: 35px;
     text-align: center;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 
 
 
 }
 .content{
     color:#DFE7E9;
-    margin-top: 180px;
+    margin-top: 310px;
     text-align: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
@@ -111,17 +158,62 @@ body{
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 }
-.container{
-    background-color: #FAFFFD;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 500px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+/* HAMBURGER ICON */
+.navbar-btn{
+    padding-inline-start: 1px !important;
+    float: right;
+    display: none;
 }
+.ham_menu {
+    width: 35px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: 0.5rem 0;
+    border-radius: 1px;
+    display: none;
+}
+/* HAMBURGER ICON */
 
+/*Javascript*/
+.hidehamburger{
+    visibility: hidden;
+}
+.exit-img{
+    background-image: url(../img/icon.png);
+    background-size: cover;
+}
+/* NAVBAR ENDS */
 
+/* RESPONSIVE LAYER */
+@media screen and (max-width:840px) {
+    .full-navbar{
+        display: none;
+    }
+    .navbar-links li{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        display: block;
+    }
+    .ham_menu{
+        display: block !important;
+    }
+    .navbar-btn{
+        display: block;
+        margin-top: 1rem;
+    }
+    .navbar-links{
+        width: 100%;
+    }
+  }
+
+@media screen and (min-width:840px) {
+    .full-navbar{
+        display: block !important;
+    }
+}
+/* RESPONSIVE LAYER */
 
 
 

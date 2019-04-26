@@ -1,61 +1,161 @@
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Jacob Julag-ay</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <link rel="stylesheet" type = "text/css" href = "css/index.css">
-</head>
-<body>
-    <div class ="container">
-        <div class="navbar">
-            <ul class = "navbar-btn">
-                <div class ="group-ham">
-                    <div class ="ham_menu"></div>
-                    <div class ="ham_menu"></div>
-                    <div class ="ham_menu"></div>
-                </div>
-            </ul>
-            <ul class="full-navbar">
-                <li>
-                    <a href="index.html"> About </a>
-                </li>
-                <li>
-                    <a href="https://drive.google.com/file/d/1DUkEl-jH_DuJNIAOzwm_R7JbQ7ch5Ckh/view?usp=sharing">Resume </a>
-                </li>
-                <li>
-                    <a href=https://github.com/jacobjulagay?tab=repositories> Portfolio </a>
-                </li>
-            </ul>    
+<html>
+    <head>
+        <meta charset=UTF-8
+        name='viewport' 
+        name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <title>Brian's Resume</title>
+        <link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css integrity=sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO crossorigin=anonymous>
+        <link rel="stylesheet" type="text/css" href="/assets/css/resume.css"></link>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../assets/js/navbar.js"></script>
+
+    </head>
+    <body class="bg">
+
+        <!--NAVBAR-->
+        <div class="navbar-container">
+            <div class="name">
+
+
+                <a href="index.html" > Apollo Smith </a>
+
+
+
+            </div>
+            <div class="navbar">
+                <ul class="navbar-btn">
+                    <div class="group-ham">
+                        <div class="ham_menu"></div>
+                        <div class="ham_menu"></div>
+                        <div class="ham_menu"></div>
+                    </div>
+                </ul>
+                <ul class="full-navbar" id="full-nav">
+                    <li>
+                        <a href="/index.html"> About </a>
+                    </li>
+                    <li>
+                        <a href="/pages/resume.html"> Resume </a>
+                    </li>
+                    <li>
+                        <a href="/pages/portfolio.html"> Portfolio </a>
+                    </li>
+                    <li>
+                        <a href="#"> Contact </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div id="profile_card">
-				<div class="center">
-					<div class="card animated jackInTheBox">
-						<img class="card-img-top" src="images/profilePic.jpeg">
-						<div class="card-body">
-							<h3 class="card-title center">Hello!</h3>
 
-							<p class="card-text">I'm <strong>Jacob Julag-ay</strong>, a computer science student at Cal State L.A.</p><hr>
-
-							<p>Currently, I work as a Business Analyst Intern for GT's Living Foods. Previously, I was an iOS Developer and Business Analyst at Sabai Software, a healthcare and technology startup that helps doctors track the health of their patient.</p><hr>
-
-							<p>I have a diverse set of passions which include building computers, playing volleyball, and helping my community through my church organization.</p><hr>
-
-							<p>If you would like to contact me, you can reach me at <em>jacobjulagay@gmail.com</em>.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-        
-    </div>
-
-    
-
-    
-</body>
+        <!--RESUME-->
+        <div class="container">
+            <div class="row">
+                <div class="col-10" id ="fontsz">
+                    <section id="sec1" class="sm">
+                            Apollo Smith (Personal Info)
+                    </section>
+                    <section id="sec2" class="sm">
+                        <p class="title">OBJECTIVE</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus at vel delectus facilis voluptatum dignissimos repellendus, rerum adipisci magnam mollitia ipsum neque qui veniam molestias illo non placeat ratione iusto?</p>
+                    </section>
+                    <section class="sm" id="sec3" style="display: inline-block">
+                        <p class="title">EDUCATION</p>
+                        <p style="float:left;">Bachelor of Science in Computer Science</p>
+                        <p style="float:right;">Expected Graduation: 2032</p>
+                        <p style="float:left;">California State University, Los Angeles (Cal State LA)</p>
+                        <p style="float:right;">GPA: 5.36</p>
+                    </section>
+                    <section id="sec4" class="sm">
+                        <p class="title">TECHNICAL SKILLS</p>
+                        <div class="row">
+                            <div class="col-sm">
+                              One of three columns
+                            </div>
+                            <div class="col-sm">
+                              One of three columns
+                            </div>
+                            <div class="col-sm">
+                              One of three columns
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm">
+                              One of three columns
+                            </div>
+                            <div class="col-sm">
+                              One of three columns
+                            </div>
+                            <div class="col-sm">
+                              One of three columns
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm">
+                              One of three columns
+                            </div>
+                            <div class="col-sm">
+                              One of three columns
+                            </div>
+                            <div class="col-sm">
+                              One of three columns
+                            </div>
+                        </div>
+                    </section>
+                    <section id="sec5" class="sm">
+                        <p class="title">WORK/CLUB EXPERIENCE</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus at vel delectus facilis voluptatum dignissimos repellendus, rerum adipisci magnam mollitia ipsum neque qui veniam molestias illo non placeat ratione iusto?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus at vel delectus facilis voluptatum dignissimos repellendus, rerum adipisci magnam mollitia ipsum neque qui veniam molestias illo non placeat ratione iusto?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus at vel delectus facilis voluptatum dignissimos repellendus, rerum adipisci magnam mollitia ipsum neque qui veniam molestias illo non placeat ratione iusto?</p>
+                    </section>
+                    <section id="sec6" class="sm">
+                        <p class="title">COMMUNITY</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus at vel delectus facilis voluptatum dignissimos repellendus, rerum adipisci magnam mollitia ipsum neque qui veniam molestias illo non placeat ratione iusto?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus at vel delectus facilis voluptatum dignissimos repellendus, rerum adipisci magnam mollitia ipsum neque qui veniam molestias illo non placeat ratione iusto?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus at vel delectus facilis voluptatum dignissimos repellendus, rerum adipisci magnam mollitia ipsum neque qui veniam molestias illo non placeat ratione iusto?</p>
+                    </section>
+                    <section id="sec7" class="sm">
+                        <p class="title">AWARDS</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus at vel delectus facilis voluptatum dignissimos repellendus, rerum adipisci magnam mollitia ipsum neque qui veniam molestias illo non placeat ratione iusto?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus at vel delectus facilis voluptatum dignissimos repellendus, rerum adipisci magnam mollitia ipsum neque qui veniam molestias illo non placeat ratione iusto?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus at vel delectus facilis voluptatum dignissimos repellendus, rerum adipisci magnam mollitia ipsum neque qui veniam molestias illo non placeat ratione iusto?</p>
+                    </section>
+                </div>
+                <div class="nav, col-2">
+                    <ul class="sec">
+                        <li><a href="#sec1">
+                                <img class="rounded-circle" src="/assets/images/portrait.jpg" style="width:40px;"/>
+                                About Me
+                        </a></li>
+                        <li><a href="#sec2">
+                                <img src="/assets/images/icon-myInfo.png" style="width:30px;"/>
+                                Personal Info
+                        </a></li>
+                        <li><a href="#sec3">
+                            <img src="/assets/images/icon-education.png" style="width:30px;"/>
+                            Education
+                        </a></li>
+                        <li><a href="#sec4">
+                                <img src="/assets/images/icon-skills.png" style="width:30px;"/>
+                                Skills
+                        </a></li>
+                        <li><a href="#sec5">
+                                <img src="/assets/images/icon-work.png" style="width:30px;"/>
+                                Experience
+                        </a></li>
+                        <li><a href="#sec6">
+                                <img src="/assets/images/icon-leader.png" style="width:30px;"/>
+                                Community
+                        </a></li>
+                        <li><a href="#sec7">
+                                <img src="/assets/images/icon-award.png" style="width:30px;"/>
+                                Awards
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
